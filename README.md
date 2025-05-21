@@ -18,8 +18,8 @@ cd document-compliance-ai-agent
 #### 🖥 macOS / Linux:
 
 ```bash
-python3 -m venv dcaa-venv
-source dcaa-venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 #### 🪟 Windows (CMD):
