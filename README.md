@@ -9,7 +9,7 @@ A multi-agent AI application that takes in documents, processes them, and checks
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/h-shoaib/document-compliance-ai-agent.git
+git clone https://github.com/PB811/document-compliance-ai-agent-main.git
 cd document-compliance-ai-agent
 ```
 
