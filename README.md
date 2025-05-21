@@ -25,15 +25,15 @@ source dcaa-venv/bin/activate
 #### 🪟 Windows (CMD):
 
 ```cmd
-python -m venv dcaa-venv
-dcaa-venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
 #### 🪟 Windows (PowerShell):
 
 ```powershell
-python -m venv dcaa-venv
-.\dcaa-venv\Scripts\Activate.ps1
+python -m venv .venv
+.venv\Scripts\Activate.ps1
 ```
 
 ### 3. Create a `.env` file 
@@ -44,6 +44,7 @@ Create a file named `.env` and add the following variables:
 AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT= "your_azure_endpoint_here"
 AZURE_DOCUMENT_INTELLIGENCE_KEY= "your_azure_key_here"
 OPENAI_API_KEY= "your_openai_key_here"
+MISTRAL_API_KEY="your_mistralai_api_key" # You can use Mistral or any other API provider.
 ```
 
 ### 4. Install Dependencies
